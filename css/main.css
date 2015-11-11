@@ -1,7 +1,11 @@
 body {
 	
 	background-image: url('../images/grocery-store-shelves-pic.jpg');
-	font-family: Impact, Charcoal, sans-serif;\
-	font-size: 200px;
+	font-family: Impact, Charcoal, sans-serif;
 	text-align: center;
+}
+
+h1 {
+	font-size: 450%;
+	border: green 10px solid;
 }
