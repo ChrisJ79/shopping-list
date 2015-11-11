@@ -6,6 +6,12 @@ body {
 }
 
 h1 {
-	font-size: 450%;
-	border: green 10px solid;
+	font-size: 64px;
+	width: 380px;
+	border: green 5px solid;
+	border-width: 10px;
+	height: 100px;
+	padding:10px;
+	margin:5px;
+
 }
