@@ -5,19 +5,32 @@ body {
 	text-align: center;
 }
 
-h1 {
+.header {
 	font-size: 64px;
 	width: 380px;
-	border: green 5px solid;
+	border: cyan 5px solid;
 	border-width: 10px;
 	height: 100px;
 	padding:10px;
 	margin:5px;
+	border-radius: 30px;
+	background-color: white;
 
 }
 
 #list-area {
 	height: 100px;
-	background-color: white;
+	background-color: cyan;
+	color: black;
+	width: 500px;
+	height: 300px;
+	border-radius: 30px;
+	font-size: 32px;
 
+}
+
+textarea {
+	font-size: 20px;
+	height: 240px;
+	border-radius: 30px;
 }
