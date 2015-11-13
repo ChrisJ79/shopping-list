@@ -5,27 +5,29 @@ body {
 	background-color: white;
 	background-image: url('../images/grocery-store-shelves-pic.jpg');
 	font-family: Impact, Charcoal, sans-serif;
-    border-right-color: #1a1aff;
+    position: relative;
+	border-right-color: #66ff66;
     border-right-width: 200px;
     border-right-style: solid;
-    border-left-color: #1a1aff;
+    border-left-color: #66ff66;
     border-left-width: 200px;
-    border-left-style: solid;
-
+    border-left-style: solid; 
+    
 }
-
 
 .header {
 	font-size: 64px;
 	width: 380px;
 	border: #0000b3 10px solid;
-	height: 90px;
+	height: 80px;
 	padding:10px;
 	margin: 5px;
 	border-radius: 20px;
 	background-color: white;
 	margin-left: 322px;
 	text-align: center;
+	opacity: 0.8;
+	background: linear-gradient(to right, #1a1aff, #66ff66, #1a1aff); 
 }
 
 #item-entry {
@@ -35,24 +37,27 @@ body {
 	color: black;
 	width: 500px;
 	height: 120px;
+	margin-top: 16px;
 	border-radius: 20px;
 	font-size: 32px;
 	margin-left: 270px;
 	text-align: center;
+	opacity: 0.8;
 }
 
 textarea {
+	background-color: white;
 	font-size: 20px;
 	height: 25px;
 	margin-top: 28px;
 	width: 450px;
-	text-align: center;
+	
 	
 }
 
 .grocery-list {
 	height: 200px;
-	background-color: #9999ff;
+	background-color: #b3d8ff;
 	color: black;
 	width: 500px;
 	height: 450px;
@@ -62,4 +67,5 @@ textarea {
 	margin-left: 270px;
 	margin-top: 14px;
 	text-align: center;
+	opacity: 0.9;
 }	
