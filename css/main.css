@@ -12,6 +12,7 @@ body {
     border-left-color: #66ff66;
     border-left-width: 200px;
     border-left-style: solid; 
+
     
 }
 
@@ -22,7 +23,7 @@ body {
 	height: 80px;
 	padding:10px;
 	margin: 5px;
-	border-radius: 20px;
+	border-radius: 15px;
 	background-color: white;
 	margin-left: 322px;
 	text-align: center;
@@ -38,7 +39,7 @@ body {
 	width: 500px;
 	height: 120px;
 	margin-top: 16px;
-	border-radius: 20px;
+	border-radius: 15px;
 	font-size: 32px;
 	margin-left: 270px;
 	text-align: center;
@@ -62,10 +63,37 @@ textarea {
 	width: 500px;
 	height: 450px;
 	border: #0000b3 10px solid;
-	border-radius: 20px;
-	font-size: 32px;
+	border-radius: 15px;
+	font-size: 16px;
 	margin-left: 270px;
 	margin-top: 14px;
-	text-align: center;
 	opacity: 0.9;
+	
+
 }	
+
+
+.checkbox {
+	float: left;
+	margin-left: 2rem;
+
+
+}
+
+
+.remove {
+	float: right;
+	margin-right: 2rem;
+
+}
+
+
+.grocery-items {
+	padding-top: 0.5rem;
+	
+}
+
+.grocery-items span {
+	margin-left: 2rem;
+
+}
