@@ -22,7 +22,7 @@ body {
 	height: 80px;
 	padding:10px;
 	margin: 5px;
-	border-radius: 20px;
+	border-radius: 15px;
 	background-color: white;
 	margin-left: 322px;
 	text-align: center;
@@ -38,7 +38,7 @@ body {
 	width: 500px;
 	height: 120px;
 	margin-top: 16px;
-	border-radius: 20px;
+	border-radius: 15px;
 	font-size: 32px;
 	margin-left: 270px;
 	text-align: center;
@@ -62,7 +62,7 @@ textarea {
 	width: 500px;
 	height: 450px;
 	border: #0000b3 10px solid;
-	border-radius: 20px;
+	border-radius: 15px;
 	font-size: 32px;
 	margin-left: 270px;
 	margin-top: 14px;
