@@ -4,27 +4,30 @@
 	<meta charset="UTF-8">
 	<title>Shopping List App</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="shopping.js"></script>
 </head>
 <body>
 <div>
 	<h1 class="header">Shopping List</h1>
 </div>
 <div id="item-entry">
-	<div>
-		<textarea></textarea>
-	</div>
+		<input type="text" value="" id="addItemValue" />
+		<button id="add-button">Add</button>
 </div>
 <div class="grocery-list">
-	<div class="grocery-items">
+	<ul class="grocery-items">
+	<li>
 		<button class="checkbox">&#x2713;</button>
 		<span>Bread</span>
 		<button class="remove">X</button>
-	</div>
-		<div class="grocery-items">
+	</li>	
+	<li>
 		<button class="checkbox">&#x2713;</button>
 		<span>Cheese</span>
 		<button class="remove">X</button>
-	</div>
+	</li>	
+	</ul>
+		<button class="remove-all">Clear List</button>
 </div>
 </body>
 </html>
