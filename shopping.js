@@ -1,8 +1,8 @@
 
-/*function for adding items to the shopping list using the add-to list button (maybe?) and/or enterkey */
+/*function for adding items to the shopping list using the add-to list button and enterkey */
 function addItem() {
 
-	var itemValue = $('#addItemValue').val();
+	var itemValue = $('#add-item-value').val();
 	
 	var row = $('<li><button class="checkbox">&#x2713;</button><span>' + itemValue + '</span><button class="remove">X</button></li>');
 
