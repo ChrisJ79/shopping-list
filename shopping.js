@@ -11,16 +11,16 @@ function addItem() {
 }
 
 function crossOut() {
-
+	$(this).parent().toggleClass('cross-out');
 }
 
 
 function removeItem() {
-
+	$(this).parent().remove();
 }
 
 function clearAll() {
-
+	$(.grocery-items).empty();
 }
 
 
@@ -34,5 +34,6 @@ $(document).ready(function() {
 
 	/* click on the check box,  class is "checkbox", the action is to make a checkmark and crossout the line */
 $(document).on('click', '.checkbox', crossOut);
+
 	/* click on the remove button,  class is "remove", the action is to remove the item completely*/
 $(document).on('click', '.remove', removeItem);	
