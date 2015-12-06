@@ -68,7 +68,7 @@ body {
 	margin-left: 270px;
 	margin-top: 14px;
 	opacity: 0.9;
-	
+	text-align: center;
 
 }	
 
@@ -93,11 +93,18 @@ body {
 	
 }
 
+.grocery-items li {
+	text-align: left;
+}
+
 .grocery-items span {
 	margin-left: 2rem;
 
 }
 
-/*cross-out in css??
+/*cross-out in css??*/
+.cross-out {
+	color: red;
+}
 
 
