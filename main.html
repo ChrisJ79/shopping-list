@@ -4,27 +4,21 @@
 	<meta charset="UTF-8">
 	<title>Shopping List App</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+		<script type="text/javascript" src="shopping.js"></script>
 </head>
 <body>
 <div>
 	<h1 class="header">Shopping List</h1>
 </div>
 <div id="item-entry">
-	<div>
-		<textarea></textarea>
-	</div>
+		<input type="text" value="" id="add-item-value" />
+		<button id="add-button">Add</button>
 </div>
 <div class="grocery-list">
-	<div class="grocery-items">
-		<button class="checkbox">&#x2713;</button>
-		<span>Bread</span>
-		<button class="remove">X</button>
-	</div>
-		<div class="grocery-items">
-		<button class="checkbox">&#x2713;</button>
-		<span>Cheese</span>
-		<button class="remove">X</button>
-	</div>
+	<ul class="grocery-items">	
+	</ul>
+		<button class="remove-all">Clear List</button>
 </div>
 </body>
 </html>

@@ -1,31 +1,36 @@
 
-
-body {
-	
-	background-color: white;
-	background-image: url('../images/grocery-store-shelves-pic.jpg');
-	font-family: Impact, Charcoal, sans-serif;
-    position: relative;
-	border-right-color: #66ff66;
-    border-right-width: 200px;
-    border-right-style: solid;
-    border-left-color: #66ff66;
-    border-left-width: 200px;
-    border-left-style: solid; 
-
-    
+html, body {
+	background-image: url('../images/grocery.jpg') ;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
 }
 
+
+body {
+	text-align: center;
+	background-color: white;
+	height: 100%;
+	font-family: Impact, Charcoal, sans-serif;
+    position: relative;  
+}
+
+ul {
+	list-style: none;
+}
+
+
 .header {
+
 	font-size: 64px;
 	width: 380px;
 	border: #0000b3 10px solid;
 	height: 80px;
 	padding:10px;
-	margin: 5px;
+	margin: 10px auto 10px;
 	border-radius: 15px;
 	background-color: white;
-	margin-left: 322px;
+
 	text-align: center;
 	opacity: 0.8;
 	background: linear-gradient(to right, #1a1aff, #66ff66, #1a1aff); 
@@ -38,26 +43,25 @@ body {
 	color: black;
 	width: 500px;
 	height: 120px;
-	margin-top: 16px;
 	border-radius: 15px;
 	font-size: 32px;
-	margin-left: 270px;
+	margin: auto;
 	text-align: center;
 	opacity: 0.8;
 }
 
-textarea {
+#addItemValue {
 	background-color: white;
 	font-size: 20px;
 	height: 25px;
-	margin-top: 28px;
+	margin: auto;
 	width: 450px;
 	
 	
 }
 
 .grocery-list {
-	height: 200px;
+	text-align: center;
 	background-color: #b3d8ff;
 	color: black;
 	width: 500px;
@@ -65,21 +69,30 @@ textarea {
 	border: #0000b3 10px solid;
 	border-radius: 15px;
 	font-size: 16px;
-	margin-left: 270px;
+	margin: auto;
 	margin-top: 14px;
 	opacity: 0.9;
-	
+
 
 }	
 
-
+/*
 .checkbox {
 	float: left;
-	margin-left: 2rem;
-
-
+	margin-left: 2rem
 }
 
+
+.grocery-items span {
+	margin-left: 2rem;
+
+}
+*/
+
+.grocery-items span {
+	margin-left: 2rem;
+
+}
 
 .remove {
 	float: right;
@@ -93,7 +106,15 @@ textarea {
 	
 }
 
-.grocery-items span {
-	margin-left: 2rem;
-
+.grocery-items li {
+	text-align: left;
 }
+
+
+
+/*cross-out in css??*/
+.cross-out {
+	color: red;
+}
+
+
