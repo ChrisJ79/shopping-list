@@ -1,120 +1,75 @@
 
-html, body {
+.container-fluid {
+	padding: 0px !important;
+}
+
+.image_container {
 	background-image: url('../images/grocery.jpg') ;
 	background-repeat: no-repeat;
 	margin: 0;
-	padding: 0;
+	padding: 0;	
+	height: 300px;
+    min-height: 300px;
+    background-position: center;
 }
 
+.jumbotron {
+	margin-bottom: 0px !important;
+}
 
-body {
-	text-align: center;
-	background-color: white;
-	height: 100%;
-	font-family: Impact, Charcoal, sans-serif;
-    position: relative;  
+.checkbox[type="button"],
+.remove[type="button"] {
+	-webkit-appearance: none;
+	border: none;
+}
+
+.checkbox[type="button"]:focus,
+.remove[type="button"]:focus {
+	outline: none;
 }
 
 ul {
 	list-style: none;
-}
-
-
-.header {
-
-	font-size: 64px;
-	width: 380px;
-	border: #0000b3 10px solid;
-	height: 80px;
-	padding:10px;
-	margin: 10px auto 10px;
-	border-radius: 15px;
-	background-color: white;
-
-	text-align: center;
-	opacity: 0.8;
-	background: linear-gradient(to right, #1a1aff, #66ff66, #1a1aff); 
-}
-
-#item-entry {
-	height: 100px;
-	background-color: #1a1aff;
-	border: #0000b3 10px solid;
-	color: black;
 	width: 500px;
-	height: 120px;
-	border-radius: 15px;
-	font-size: 32px;
-	margin: auto;
-	text-align: center;
-	opacity: 0.8;
-}
-
-#addItemValue {
-	background-color: white;
-	font-size: 20px;
-	height: 25px;
-	margin: auto;
-	width: 450px;
-	
-	
 }
 
 .grocery-list {
-	text-align: center;
-	background-color: #b3d8ff;
 	color: black;
-	width: 500px;
-	height: 450px;
-	border: #0000b3 10px solid;
-	border-radius: 15px;
-	font-size: 16px;
-	margin: auto;
-	margin-top: 14px;
-	opacity: 0.9;
+}
 
+.grocery-items {
+	padding-left: 0px;
+}
 
-}	
-
-/*
 .checkbox {
-	float: left;
-	margin-left: 2rem
-}
-
-
-.grocery-items span {
-	margin-left: 2rem;
-
-}
-*/
-
-.grocery-items span {
-	margin-left: 2rem;
-
+    margin-right: 5px;
+    color: green;
+	position: relative;
+    top: 4px;
 }
 
 .remove {
+    color: red;
 	float: right;
-	margin-right: 2rem;
-
 }
 
-
-.grocery-items {
-	padding-top: 0.5rem;
-	
+.remove i {
+	position: relative;
+	top: 4px;
+	font-size: 27px;
 }
 
-.grocery-items li {
-	text-align: left;
+.remove:hover,
+.checkbox:hover
+{
+	cursor: pointer;
 }
 
-
-
-/*cross-out in css??*/
 .cross-out {
-	color: red;
+	color: red !important; 
 }
+
+
+
 
 

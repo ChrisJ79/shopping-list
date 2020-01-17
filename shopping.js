@@ -1,20 +1,22 @@
 
 /*function for adding items to the shopping list using the add-to list button and enterkey */
-function addItem() {
+	function addItem() {
 
 	var itemValue = $('#add-item-value').val();
 	
-	var row = $('<li><button class="checkbox">&#x2713;</button><span>' + itemValue + '</span><button class="remove">X</button></li>');
+
+	var row = $('<li><button class="checkbox" type="button"><i class="material-icons">check</i></button><span style="font-size: 24px;">' + itemValue + ' </span><button class="remove" type="button"><i class="material-icons">close</i></li>');
 
 	$('.grocery-items').append(row);
 
-	itemValue = $('#add-item-value').val('');
-
 }
+
+
 
 function crossOut() {
 	$(this).parent().toggleClass('cross-out');
 }
+
 
 
 function removeItem() {
