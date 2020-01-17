@@ -9,8 +9,6 @@
 
 	$('.grocery-items').append(row);
 
-	// itemValue = $('#add-item-value').val('');
-
 }
 
 
