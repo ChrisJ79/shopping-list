@@ -49,12 +49,14 @@ ul {
     margin-right: 5px;
     color: green;
 	position: relative;
-    top: 4px;
+	top: 4px;
+	background: transparent;
 }
 
 .remove {
     color: red;
 	float: right;
+	background: transparent;
 }
 
 .remove i {
