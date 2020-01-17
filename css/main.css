@@ -1,13 +1,4 @@
 
-
-/* body {
-	text-align: center;
-	background-color: white;
-	height: 100%;
-	font-family: Impact, Charcoal, sans-serif;
-    position: relative;  
-} */
-
 .container-fluid {
 	padding: 0px !important;
 }
@@ -42,7 +33,6 @@ ul {
 	width: 500px;
 }
 
-
 .grocery-list {
 	color: black;
 }
@@ -50,7 +40,6 @@ ul {
 .grocery-items {
 	padding-left: 0px;
 }
-
 
 .checkbox {
     margin-right: 5px;
@@ -75,15 +64,6 @@ ul {
 {
 	cursor: pointer;
 }
-
-
-
-
-/* .grocery-list .grocery-items li {
-	color: #333;
-} */
-
-
 
 .cross-out {
 	color: red !important; 
